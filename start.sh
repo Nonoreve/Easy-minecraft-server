@@ -1,5 +1,5 @@
 # MBDO migrate to python scripts ?
-screen -d -m -S spigot
+screen -d -m -S minecraftServer
 screen -S minecraftServer -X stuff './restart.sh^M'
 # TODO move JARNAME to here and automatically download and execute BuildTools if no server found
 echo "The server is starting in a detached screen, enter 'screen -r' to show the console."
